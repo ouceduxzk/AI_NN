@@ -1,0 +1,17 @@
+n = 5;
+x1 = rand(n,1)'
+x2 = ones(1,n)
+X = [x1;x2]'
+
+beta = [1;1];
+
+elson = rand(n,1);
+
+c = 0.1;
+
+Y = X*beta + c* elson
+
+
+beta_hat = inv(X'*X) * X' * Y
+
+plot()
