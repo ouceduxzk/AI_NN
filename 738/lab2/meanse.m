@@ -14,3 +14,7 @@ m = x/30;
 b = beta_hat;
 end
 
+for i = 2:200
+    [m,b]= meanse(i,0.1,2);
+    e(i-1) = m;
+end
