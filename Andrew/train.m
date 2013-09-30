@@ -119,6 +119,10 @@ options.display = 'on';
                                    beta, patches), ...
                               theta, options);
 
+% save('theta.mat', opttheta);
+% save('cost.mat', cost);
+% 
+
 %%======================================================================
 %% STEP 5: Visualization 
 

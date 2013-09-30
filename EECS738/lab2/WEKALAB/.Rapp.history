@@ -1,0 +1,292 @@
+runif(1,10)
+runif(10)
+N = 9
+(runif(N)> 0.5)
+(runif(N)> 0.5)*2
+(runif(N)> 0.5)*2-1
+x = 1:9
+x
+shift(x)
+?shift
+??shift
+install.packages("taRifx")
+shfit(x)
+taRifx
+install.packages("reports")#
+library(reports)#
+presentation('example')#
+setwd('～/example')#
+reveal.js()
+install.packages("reports")
+??reports
+n = c(110,2419,2769,507)
+c = c(14,201,209,42)
+x = (n+c)/2
+x
+?chisq
+?chisq.test
+chisq.test(n,c)
+a  = c(110,2419,2769,507,14,201,209,42)
+m = matrix(a, byrow =T, nrow = 2)
+m
+chisq.test(m)
+chisq.test(m)$statistic
+aa = c(4281,806,415,89,12,10,26181,4869,4313,1422,371,228)
+mm = matrix(aa, byrow= T, nrow = 2)
+chisq.test(mm)
+aa = c(4281,806,415,89,12,10,21900,4058,3898,1333,359,218)
+mm = matrix(aa, byrow= T, nrow = 2)
+chisq.test(mm)
+T = 1:100
+p1  = 24.38-3063/T
+p1
+plot(T,p1)
+p2  = 27.92-3754/T
+points(T,p2,col=2)
+plot(T,exp(p1))
+points(T,exp(p2),col=2)
+a=(2*log(2))
+a
+log(2)
+log(3)
+a=(2*log(2)*1.3806*298/36/1.6605/9)
+a
+sqrt(a)
+sqrt(a)*2
+exp(8.3)
+exp(8.8\)
+exp(8.8)
+exp(27.92-3754/195.2)
+8.315*3063
+8.315*3754
+31.215-25.468
+24*0.0537/300
+24*0.0537/300*(1-exp(-308/300))
+24*0.0537/300*(1-exp(-308/300))*exp(-149/8.314/300)
+24*0.0537/300*(1-exp(-308/300))*exp(-149/8.314/300)*(1)^1.5
+24*0.0537/300*(1-exp(-308/300))*exp(-149/8.314/300)*(2*3.1415926*1.3806*10^-23)^1.5
+24*0.0537/300*(1-exp(-308/300))*exp(-149/8.314/300)*(2*3.1415926*1.3806*10^-23*3000/(6.626*10^-34)^2)^1.5
+24*0.0537/300*(1-exp(-308/300))*exp(-149/8.314/300)*(2*3.1415926*1.3806*10^-23*3000/(6.626*10^-34)^2 * 53/2*1.6605*10^-27)^1.5
+24*0.0537/300*(1-exp(-308/300))*exp(-149/8.314/300)*(2*3.1415926*1.3806*10^-23*300/(6.626*10^-34)^2 * 53/2*1.6605*10^-27)^1.5
+24*0.0537/300*(1-exp(-308/300))*exp(-149/8.314/300)*(2*3.1415926*1.3806*10^(-23)*300/(6.626*10^-34)^2 * 53/2*1.6605*10^-27)^1.5
+24*0.0537/300*(1-exp(-308/300))*exp(-149000/8.314/300)*(2*3.1415926*1.3806*10^(-23)*300/(6.626*10^-34)^2 * 53/2*1.6605*10^-27)^1.5
+exp(-149000/8.314/300)
+exp(-495000/8.314/3000)
+exp(-149000/8.314/300)
+24*0.0537/300*(1-exp(-308/300))*exp(-149000/8.314/300)*(2*3.1415926*1.3806*10^(-23)*300/(6.626*10^-34)^2 * 53/2*1.6605*10^-27)^1.5
+24*0.0537/300*(1-exp(-308/300))*exp(-149000/8.314/300)*(2*3.1415926*1.3806*10^(-23)*300/(6.626*10^-34)^2 * 53/2*1.6605*10^-27)^1.5*8.314*300
+24*0.0537/300*(1-exp(-308/300))*exp(-149000/8.314/300)*(2*3.1415926*1.3806*10^(-23)*300/(6.626*10^-34)^2 * 53/2*1.6605*10^-27)^1.5*8.314*300/100000
+24*0.0537/300*(1-exp(-308/300))*exp(-149000/8.314/300)*(2*3.1415926*1.3806*10^(-23)*300/(6.626*10^-34)^2 * 53/2*1.6605*10^-27)^1.5*8.314*300/101325
+exp(-6.626*1580*3/2/1.3806/600)
+exp(-6.626*1580*3/2/1.3806/600/10)
+4.664*6.02
+4.4778*6.02
+2.6956-2.8077
+(6.626*1580*3)^2*0.1502^2
+(6.626*1580*3)^2*0.1502^2/2/8.314/600^2
+(6.626*1580*3)^2*0.1502^2/2/8.314/600^2*6.02^2
+(6.626*1580*3)^2*0.1502^2/2/1.3806/600^2*6.02
+(6.626*1580*3)^2*0.1502^2/2/1.3806/600^2
+log(0.1502)
+-log(0.1502)
+-log(0.1502)^2
+log(0.1502)^2*0.150262
+log(0.1502)^2*0.1502……2
+log(0.1502)^2*0.1502^2
+log(0.1502)^2*0.1502^2*1.3806*6.02
+4.778*6.02
+(6.626*1580*3*0.1502/600)^2
+(6.626*1580*3*0.1502/600)^2*6.02/2/1.3806
+(6.626*1580*3*0.1502/600)^2*6.02/1.3806
+(6.626*1580*3*0.1502/600)^2*6.02*1.3806
+log(0.1502)^2*0.1502^2*1.3806*6.02
+log(0.1502)^2*0.1502^2*1.3806*6.02*2
+log(0.1502)^2*0.1502^3*1.3806*6.02*8/(1-0.1502^2)^2
+log(0.1502)^2*0.1502^2*1.3806*6.02*8/(1-0.1502^2)^2
+log(0.1502)^2*0.1502^2*1.3806*6.02*4/(1-0.1502^2)^2
+2.8214-2,8077
+a=2.8214-2.8077
+a/2.8214
+pow(100,0.5)
+math.pow(100,0.5)
+100**0.5
+100**0.05
+200000**0.05
+200000**10
+(1/200000)**10
+(1/200000)**0.1
+1/900000000
+50/30*20
+50/32*20
+20/(50/32)
+20/(50/16)
+20/(50/8)
+20/(50/4)
+20/(50/2)
+20/(50/1)
+20/(50/0.5)
+1.7 * 6.02
+help.start()
+q()
+setwd("")
+setwd("~/Downloads/kaggle/facerecog/")
+train.file <- 'training.csv'#
+test.file <- 'test.csv'#
+d.train <- read.csv(train.file, stringsAsFactors=F)#
+im.train      <- d.train$Image#
+d.train$Image <- NULL#
+as.integer(unlist(strsplit(im.train[1], " ")))#
+library(doMC)#
+registerDoMC()
+im.train <- foreach(im = im.train, .combine=rbind) %dopar% {#
+    as.integer(unlist(strsplit(im, " ")))#
+}
+dim(im.train)
+rand()
+x = rnorm(100)
+x
+x[1:10]
+for (i in 1:20){#
+    p[i] = x[(i-1)*5 + 1:(i-5)*5+4]#
+}
+for (i in 1:20){#
+    p[i] = x[(i-1)*5 + 1:(i-1)*5+4]#
+}
+for (i in 1:20){#
+    p[i] = x[(i-1)*5 + 1:(i-1)*5+5]#
+}
+p[1]
+p = null
+p = NULL
+for (i in 1:20){#
+    p[i] = x[(i-1)*5 + 1:(i-1)*5+5]#
+}
+p
+im.train[1]
+im.train[2]
+dim(im.train)
+small = im.train[1:100,:]
+small = im.train(1:100,)
+x
+x[1]
+x(1)
+x[1]
+x[1:100,]
+x[1:100,:]
+x[,:1]
+x[:,1]
+x(:,1)
+x[1]
+x[1:10]
+x[1:10,]
+x[1:10,:]
+str(im.train)
+im.train[1:100]
+im.train[,1]
+x=im.train[,1]
+dim(x)
+str(x)
+x[1]
+a = as.matrix(x)
+a
+a = as.matrix(x, row.names = FALSE)
+a
+str(a)
+?as.matrix
+is.matrix(a)
+dimnames(a)
+dimnames(a) = NULL
+a
+x=im.train[1,]
+dim(x)
+length(x)
+a = as.matrix(x)
+dimnames(a) = NULL
+a
+x=im.train[1:100,]
+a = as.matrix(x)
+dimnames(a) = NULL
+dim(a)
+write.table(file = "subset", row.names = FALSE, col.names = FALSE)
+write.table(a,file = "subset", row.names = FALSE, col.names = FALSE)
+m = read.table(file = "subset")
+str(m)
+x = as.matrix(m)
+str(x)
+dimnames(x) = NULL
+x[1,]
+x
+setwd("~/Downloads/kaggle/facerecog/")
+case = x[1,]#
+caseimage <- matrix(data = rev(case), nrow = 96, ncol = 96)
+image(1:96, 1:96, caseimage, col=gray((0:255)/255))
+[s,v,d ] = svd(caseimage)
+[s,v,d] = svd(caseimage)
+ss = svd(caseimage)
+dim(ss$v)
+image(1:96, 1:96, ss$v, col=gray((0:255)/255))
+coord      <- "left_eye_center"#
+patch_size <- 10#
+coord_x <- paste(coord, "x", sep="_")#
+coord_y <- paste(coord, "y", sep="_")#
+lefteyepatches <- foreach (i = 1:nrow(im.train), .combine=rbind) %do% {#
+    mm  <- matrix(data = im.train[i,], nrow=96, ncol=96)#
+    x   <- d.train[i, coord_x]#
+    y   <- d.train[i, coord_y]#
+    x1  <- (x-patch_size)#
+    x2  <- (x+patch_size)#
+    y1  <- (y-patch_size)#
+    y2  <- (y+patch_size)#
+    if ( (!is.na(x)) && (!is.na(y)) && (x1>=1) && (x2<=96) && (y1>=1) && (y2<=96) )#
+    {#
+        as.vector(mm[x1:x2, y1:y2])#
+    }#
+    else#
+    {#
+        NULL#
+    }#
+}
+dim(lefteyepatches)
+write.table(lefteyepatches,file = "lefteye".row.names = FALSE, col.names = FALSE)
+write.table(lefteyepatches,file = "lefteye",row.names = FALSE, col.names = FALSE)
+write.table(lefteyepatches[1:100,],file = "smalllefteye",row.names = FALSE, col.names = FALSE)
+mean.patch <- matrix(data = colMeans(lefteyepatches), nrow=2*patch_size+1, ncol=2*patch_size+1)
+image(1:21, 1:21, mean.patch[21:1,21:1], col=gray((0:255)/255))
+writeMat()
+library(R.matlab)
+writeMat(lefteyepatches,)
+?writeMat
+writeMat("lefteye.mat",leye = lefteyepatches)
+writeMat("smalllefteye.mat",leye = lefteyepatches[1:100,])
+writeMat("smalllefteyetestdata.mat",leye = lefteyepatches[101:200,])
+writeMat("smalltest.mat",leye = im.train[1:100,])
+library(randomForest)
+install.packages("randomForest")
+library(randomForest)
+model.forest <-randomForest(Species ~ ., data = iris)
+head(iris)
+pre.forest=predict(model.forest, iris)
+table(pre.forest,iris$Species)
+https://github.com/ouceduxzk
+model.forest <-randomForest(Petal.Width ~ ., data = iris)
+pre.forest=predict(model.forest, iris)
+table(pre.forest,iris$Species)
+setwd("~/Downloads/ML_R_Python/deeplearning/AI_NN/738/")
+setwd("~/Downloads/ML_R_Python/deeplearning/AI_NN/738/lab2/WEKALAB/")
+dd = read.cvs(file ="data_prep.csv")
+dd = read.csv(file ="data_prep.csv")
+names(dd)
+d = head(dd)
+d
+d[1:200,]
+d[1:200,]
+d
+d[1]
+d[2]
+d[,1:200]
+write.csv(dd[,1:201], file = "200set.csv")
+write.csv(dd[,300:801], file = "500set.csv")
+write.csv(dd[300:801,], file = "500set.csv")
+write.csv(dd[300:801,], file = "500set.csv")
+write.csv(dd[1:201,], file = "200set.csv")
+write.csv(dd[1:501,], file = "500set.csv")
