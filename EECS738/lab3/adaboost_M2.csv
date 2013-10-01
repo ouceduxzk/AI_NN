@@ -1,0 +1,476 @@
+=== Model information ===
+
+Filename:     adaboost.model
+Scheme:weka.classifiers.meta.AdaBoostM1 -P 100 -S 1 -I 20 -W weka.classifiers.trees.RandomForest -- -I 1 -K 100 -S 10
+Relation:data_prep
+Attributes:   1559
+[list of attributes omitted]
+
+=== Classifier model ===
+
+AdaBoostM1: Base classifiers and their weights: 
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.422
+
+
+
+Weight: 3.71
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.3461
+
+
+
+Weight: 3.66
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.477
+
+
+
+Weight: 4.22
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.5486
+
+
+
+Weight: 4.52
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.5665
+
+
+
+Weight: 4.49
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.5792
+
+
+
+Weight: 4.36
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.5333
+
+
+
+Weight: 3.76
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.3438
+
+
+
+Weight: 3.69
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.5037
+
+
+
+Weight: 4.31
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.519
+
+
+
+Weight: 4.03
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.5416
+
+
+
+Weight: 4.09
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.2749
+
+
+
+Weight: 4.04
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.3251
+
+
+
+Weight: 3.86
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.4395
+
+
+
+Weight: 3.86
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.5222
+
+
+
+Weight: 4.2
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.6443
+
+
+
+Weight: 5.04
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.4609
+
+
+
+Weight: 5.11
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.4014
+
+
+
+Weight: 4.47
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.3667
+
+
+
+Weight: 4.25
+
+Random forest of 1 trees, each constructed while considering 100 random features.
+Out of bag error: 0.4058
+
+
+
+Weight: 4.34
+
+Number of performed Iterations: 20
+
+
+=== Re-evaluation on test set ===
+
+User supplied test set
+Relation:     data_prep_300_test
+Instances:    300
+Attributes:   1559
+
+=== Predictions on test set ===
+
+inst#,    actual, predicted, error, probability distribution
+     1       1:ad       1:ad         *1      0    
+     2    2:nonad       1:ad      +  *1      0    
+     3          ?       1:ad      +  *1      0    
+     4          ?       1:ad      +  *1      0    
+     5          ?       1:ad      +  *1      0    
+     6          ?       1:ad      +  *1      0    
+     7          ?       1:ad      +  *1      0    
+     8          ?       1:ad      +  *1      0    
+     9          ?       1:ad      +  *1      0    
+    10          ?       1:ad      +  *1      0    
+    11          ?       1:ad      +  *1      0    
+    12          ?       1:ad      +  *1      0    
+    13          ?       1:ad      +  *1      0    
+    14          ?       1:ad      +  *1      0    
+    15          ?       1:ad      +  *1      0    
+    16          ?       1:ad      +  *1      0    
+    17          ?       1:ad      +  *1      0    
+    18          ?       1:ad      +  *1      0    
+    19          ?       1:ad      +  *1      0    
+    20          ?       1:ad      +  *1      0    
+    21          ?       1:ad      +  *1      0    
+    22          ?       1:ad      +  *1      0    
+    23          ?       1:ad      +  *1      0    
+    24          ?       1:ad      +  *1      0    
+    25          ?       1:ad      +  *1      0    
+    26          ?       1:ad      +  *1      0    
+    27          ?       1:ad      +  *1      0    
+    28          ?       1:ad      +  *1      0    
+    29          ?       1:ad      +  *1      0    
+    30          ?       1:ad      +  *1      0    
+    31          ?       1:ad      +  *1      0    
+    32          ?       1:ad      +  *1      0    
+    33          ?       1:ad      +  *1      0    
+    34          ?       1:ad      +  *1      0    
+    35          ?       1:ad      +  *1      0    
+    36          ?       1:ad      +  *1      0    
+    37          ?       1:ad      +  *1      0    
+    38          ?       1:ad      +  *1      0    
+    39          ?       1:ad      +  *1      0    
+    40          ?       1:ad      +  *1      0    
+    41          ?       1:ad      +  *1      0    
+    42          ?       1:ad      +  *1      0    
+    43          ?       1:ad      +  *1      0    
+    44          ?       1:ad      +  *1      0    
+    45          ?       1:ad      +  *1      0    
+    46          ?       1:ad      +  *1      0    
+    47          ?       1:ad      +  *1      0    
+    48          ?       1:ad      +  *1      0    
+    49          ?       1:ad      +  *1      0    
+    50          ?    2:nonad      +   0     *1    
+    51          ?    2:nonad      +   0     *1    
+    52          ?    2:nonad      +   0     *1    
+    53          ?    2:nonad      +   0     *1    
+    54          ?    2:nonad      +   0     *1    
+    55          ?    2:nonad      +   0     *1    
+    56          ?    2:nonad      +   0     *1    
+    57          ?    2:nonad      +   0     *1    
+    58          ?    2:nonad      +   0.006 *0.994
+    59          ?    2:nonad      +   0     *1    
+    60          ?    2:nonad      +   0     *1    
+    61          ?    2:nonad      +   0     *1    
+    62          ?    2:nonad      +   0     *1    
+    63          ?    2:nonad      +   0     *1    
+    64          ?    2:nonad      +   0     *1    
+    65          ?    2:nonad      +   0     *1    
+    66          ?    2:nonad      +   0     *1    
+    67          ?    2:nonad      +   0     *1    
+    68          ?    2:nonad      +   0     *1    
+    69          ?    2:nonad      +   0     *1    
+    70          ?    2:nonad      +   0     *1    
+    71          ?    2:nonad      +   0     *1    
+    72          ?    2:nonad      +   0     *1    
+    73          ?    2:nonad      +   0     *1    
+    74          ?    2:nonad      +   0     *1    
+    75          ?       1:ad      +  *1      0    
+    76          ?    2:nonad      +   0     *1    
+    77          ?       1:ad      +  *1      0    
+    78          ?    2:nonad      +   0     *1    
+    79          ?    2:nonad      +   0     *1    
+    80          ?    2:nonad      +   0     *1    
+    81          ?    2:nonad      +   0     *1    
+    82          ?    2:nonad      +   0     *1    
+    83          ?    2:nonad      +   0     *1    
+    84          ?    2:nonad      +   0     *1    
+    85          ?    2:nonad      +   0     *1    
+    86          ?    2:nonad      +   0     *1    
+    87          ?    2:nonad      +   0     *1    
+    88          ?    2:nonad      +   0     *1    
+    89          ?    2:nonad      +   0     *1    
+    90          ?    2:nonad      +   0     *1    
+    91          ?    2:nonad      +   0     *1    
+    92          ?    2:nonad      +   0     *1    
+    93          ?    2:nonad      +   0     *1    
+    94          ?    2:nonad      +   0     *1    
+    95          ?       1:ad      +  *0.741  0.259
+    96          ?    2:nonad      +   0     *1    
+    97          ?    2:nonad      +   0     *1    
+    98          ?    2:nonad      +   0     *1    
+    99          ?    2:nonad      +   0     *1    
+   100          ?    2:nonad      +   0     *1    
+   101          ?    2:nonad      +   0     *1    
+   102          ?    2:nonad      +   0     *1    
+   103          ?    2:nonad      +   0     *1    
+   104          ?    2:nonad      +   0     *1    
+   105          ?    2:nonad      +   0     *1    
+   106          ?    2:nonad      +   0     *1    
+   107          ?    2:nonad      +   0     *1    
+   108          ?    2:nonad      +   0     *1    
+   109          ?    2:nonad      +   0     *1    
+   110          ?    2:nonad      +   0     *1    
+   111          ?    2:nonad      +   0     *1    
+   112          ?    2:nonad      +   0     *1    
+   113          ?    2:nonad      +   0     *1    
+   114          ?    2:nonad      +   0     *1    
+   115          ?    2:nonad      +   0     *1    
+   116          ?    2:nonad      +   0     *1    
+   117          ?    2:nonad      +   0     *1    
+   118          ?    2:nonad      +   0     *1    
+   119          ?    2:nonad      +   0     *1    
+   120          ?    2:nonad      +   0     *1    
+   121          ?    2:nonad      +   0     *1    
+   122          ?    2:nonad      +   0     *1    
+   123          ?    2:nonad      +   0     *1    
+   124          ?    2:nonad      +   0.138 *0.862
+   125          ?    2:nonad      +   0     *1    
+   126          ?    2:nonad      +   0     *1    
+   127          ?       1:ad      +  *1      0    
+   128          ?    2:nonad      +   0     *1    
+   129          ?    2:nonad      +   0     *1    
+   130          ?    2:nonad      +   0     *1    
+   131          ?    2:nonad      +   0     *1    
+   132          ?    2:nonad      +   0     *1    
+   133          ?    2:nonad      +   0     *1    
+   134          ?    2:nonad      +   0     *1    
+   135          ?    2:nonad      +   0     *1    
+   136          ?    2:nonad      +   0     *1    
+   137          ?    2:nonad      +   0     *1    
+   138          ?    2:nonad      +   0     *1    
+   139          ?    2:nonad      +   0     *1    
+   140          ?    2:nonad      +   0     *1    
+   141          ?    2:nonad      +   0     *1    
+   142          ?    2:nonad      +   0     *1    
+   143          ?    2:nonad      +   0     *1    
+   144          ?    2:nonad      +   0     *1    
+   145          ?    2:nonad      +   0     *1    
+   146          ?    2:nonad      +   0     *1    
+   147          ?       1:ad      +  *1      0    
+   148          ?    2:nonad      +   0     *1    
+   149          ?    2:nonad      +   0     *1    
+   150          ?    2:nonad      +   0     *1    
+   151          ?    2:nonad      +   0     *1    
+   152          ?    2:nonad      +   0     *1    
+   153          ?    2:nonad      +   0     *1    
+   154          ?    2:nonad      +   0     *1    
+   155          ?    2:nonad      +   0     *1    
+   156          ?    2:nonad      +   0     *1    
+   157          ?    2:nonad      +   0     *1    
+   158          ?    2:nonad      +   0     *1    
+   159          ?    2:nonad      +   0     *1    
+   160          ?    2:nonad      +   0     *1    
+   161          ?    2:nonad      +   0     *1    
+   162          ?    2:nonad      +   0     *1    
+   163          ?    2:nonad      +   0     *1    
+   164          ?    2:nonad      +   0     *1    
+   165          ?    2:nonad      +   0     *1    
+   166          ?    2:nonad      +   0     *1    
+   167          ?    2:nonad      +   0     *1    
+   168          ?    2:nonad      +   0     *1    
+   169          ?    2:nonad      +   0     *1    
+   170          ?    2:nonad      +   0     *1    
+   171          ?    2:nonad      +   0     *1    
+   172          ?    2:nonad      +   0     *1    
+   173          ?    2:nonad      +   0     *1    
+   174          ?    2:nonad      +   0     *1    
+   175          ?    2:nonad      +   0     *1    
+   176          ?    2:nonad      +   0     *1    
+   177          ?    2:nonad      +   0     *1    
+   178          ?    2:nonad      +   0     *1    
+   179          ?    2:nonad      +   0     *1    
+   180          ?    2:nonad      +   0     *1    
+   181          ?    2:nonad      +   0     *1    
+   182          ?    2:nonad      +   0     *1    
+   183          ?    2:nonad      +   0     *1    
+   184          ?    2:nonad      +   0     *1    
+   185          ?    2:nonad      +   0     *1    
+   186          ?    2:nonad      +   0     *1    
+   187          ?    2:nonad      +   0     *1    
+   188          ?    2:nonad      +   0     *1    
+   189          ?    2:nonad      +   0     *1    
+   190          ?    2:nonad      +   0     *1    
+   191          ?    2:nonad      +   0     *1    
+   192          ?    2:nonad      +   0     *1    
+   193          ?    2:nonad      +   0.159 *0.841
+   194          ?    2:nonad      +   0     *1    
+   195          ?    2:nonad      +   0     *1    
+   196          ?    2:nonad      +   0     *1    
+   197          ?    2:nonad      +   0     *1    
+   198          ?    2:nonad      +   0     *1    
+   199          ?    2:nonad      +   0     *1    
+   200          ?    2:nonad      +   0     *1    
+   201          ?    2:nonad      +   0     *1    
+   202          ?    2:nonad      +   0     *1    
+   203          ?    2:nonad      +   0     *1    
+   204          ?    2:nonad      +   0     *1    
+   205          ?    2:nonad      +   0     *1    
+   206          ?    2:nonad      +   0     *1    
+   207          ?    2:nonad      +   0     *1    
+   208          ?    2:nonad      +   0     *1    
+   209          ?    2:nonad      +   0     *1    
+   210          ?    2:nonad      +   0     *1    
+   211          ?    2:nonad      +   0     *1    
+   212          ?    2:nonad      +   0     *1    
+   213          ?    2:nonad      +   0     *1    
+   214          ?       1:ad      +  *0.732  0.268
+   215          ?    2:nonad      +   0     *1    
+   216          ?    2:nonad      +   0     *1    
+   217          ?    2:nonad      +   0     *1    
+   218          ?    2:nonad      +   0     *1    
+   219          ?    2:nonad      +   0     *1    
+   220          ?    2:nonad      +   0     *1    
+   221          ?    2:nonad      +   0     *1    
+   222          ?    2:nonad      +   0     *1    
+   223          ?    2:nonad      +   0     *1    
+   224          ?    2:nonad      +   0     *1    
+   225          ?    2:nonad      +   0     *1    
+   226          ?    2:nonad      +   0     *1    
+   227          ?    2:nonad      +   0     *1    
+   228          ?    2:nonad      +   0     *1    
+   229          ?    2:nonad      +   0     *1    
+   230          ?    2:nonad      +   0     *1    
+   231          ?    2:nonad      +   0     *1    
+   232          ?    2:nonad      +   0     *1    
+   233          ?    2:nonad      +   0     *1    
+   234          ?    2:nonad      +   0     *1    
+   235          ?    2:nonad      +   0     *1    
+   236          ?    2:nonad      +   0     *1    
+   237          ?    2:nonad      +   0     *1    
+   238          ?    2:nonad      +   0     *1    
+   239          ?    2:nonad      +   0     *1    
+   240          ?    2:nonad      +   0     *1    
+   241          ?    2:nonad      +   0     *1    
+   242          ?    2:nonad      +   0     *1    
+   243          ?    2:nonad      +   0     *1    
+   244          ?    2:nonad      +   0     *1    
+   245          ?    2:nonad      +   0     *1    
+   246          ?    2:nonad      +   0     *1    
+   247          ?    2:nonad      +   0     *1    
+   248          ?    2:nonad      +   0     *1    
+   249          ?    2:nonad      +   0     *1    
+   250          ?    2:nonad      +   0     *1    
+   251          ?    2:nonad      +   0     *1    
+   252          ?       1:ad      +  *1      0    
+   253          ?    2:nonad      +   0     *1    
+   254          ?    2:nonad      +   0     *1    
+   255          ?    2:nonad      +   0     *1    
+   256          ?    2:nonad      +   0     *1    
+   257          ?    2:nonad      +   0     *1    
+   258          ?    2:nonad      +   0     *1    
+   259          ?    2:nonad      +   0     *1    
+   260          ?    2:nonad      +   0     *1    
+   261          ?    2:nonad      +   0     *1    
+   262          ?    2:nonad      +   0     *1    
+   263          ?    2:nonad      +   0     *1    
+   264          ?    2:nonad      +   0     *1    
+   265          ?    2:nonad      +   0     *1    
+   266          ?    2:nonad      +   0     *1    
+   267          ?    2:nonad      +   0     *1    
+   268          ?    2:nonad      +   0     *1    
+   269          ?    2:nonad      +   0     *1    
+   270          ?    2:nonad      +   0     *1    
+   271          ?    2:nonad      +   0     *1    
+   272          ?    2:nonad      +   0     *1    
+   273          ?    2:nonad      +   0     *1    
+   274          ?    2:nonad      +   0     *1    
+   275          ?    2:nonad      +   0     *1    
+   276          ?    2:nonad      +   0     *1    
+   277          ?    2:nonad      +   0     *1    
+   278          ?    2:nonad      +   0     *1    
+   279          ?    2:nonad      +   0     *1    
+   280          ?    2:nonad      +   0     *1    
+   281          ?    2:nonad      +   0     *1    
+   282          ?    2:nonad      +   0     *1    
+   283          ?    2:nonad      +   0     *1    
+   284          ?    2:nonad      +   0     *1    
+   285          ?    2:nonad      +   0     *1    
+   286          ?    2:nonad      +   0     *1    
+   287          ?    2:nonad      +   0     *1    
+   288          ?    2:nonad      +   0     *1    
+   289          ?    2:nonad      +   0     *1    
+   290          ?    2:nonad      +   0     *1    
+   291          ?    2:nonad      +   0     *1    
+   292          ?    2:nonad      +   0     *1    
+   293          ?    2:nonad      +   0     *1    
+   294          ?    2:nonad      +   0     *1    
+   295          ?    2:nonad      +   0     *1    
+   296          ?    2:nonad      +   0     *1    
+   297          ?    2:nonad      +   0     *1    
+   298          ?    2:nonad      +   0     *1    
+   299          ?       1:ad      +  *1      0    
+   300          ?    2:nonad      +   0     *1    
+
+=== Summary ===
+
+Correctly Classified Instances           1               50      %
+Incorrectly Classified Instances         1               50      %
+Kappa statistic                          0     
+Mean absolute error                      0.5   
+Root mean squared error                  0.7071
+Total Number of Instances                2     
+Ignored Class Unknown Instances                298     
+
